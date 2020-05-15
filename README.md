@@ -52,9 +52,10 @@ Check out this awesome guide: https://nashosted.com/manage-your-self-hosted-appl
 ### Python
 Instructions are for linux.
 ```
+
 virtualenv --python=python3 DashMachineEnv
 cd DashMachineEnv && source bin/activate
-git clone https://github.com/rmountjoy92/DashMachine.git
+git clone git@github.com:tkuennen/DashMachine.git
 cd DashMachine && pip install -r requirements.txt
 python3 run.py
 ```
